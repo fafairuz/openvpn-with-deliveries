@@ -1,0 +1,10 @@
+set realname = "Personal OpenVPN Config Provider"
+set from = <email>
+set use_from = yes
+set envelope_from = yes
+set sendmail = "/usr/sbin/ssmtp"
+
+set folder="~/Mail"                # Mailboxes in here
+set record="+sent"                 # where to store sent messages
+set postponed="+postponed"         # where to store draft messages
+set move=no                        # Don't move mail from the spool.
